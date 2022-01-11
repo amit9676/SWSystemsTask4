@@ -1,4 +1,5 @@
-#include "node.c"
+#include "Node.c"
+#include "Edge.c"
 
 
 typedef struct Graph{
@@ -7,7 +8,5 @@ typedef struct Graph{
     int highestNodeID;
     Node *nodes;
     Edge *edges;
-    //int *test;
-    //int edges[][3];
 }Graph;
 
